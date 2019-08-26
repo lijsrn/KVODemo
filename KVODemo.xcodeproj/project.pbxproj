@@ -13,6 +13,7 @@
 		E96259382313C9B70029DC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96259372313C9B70029DC06 /* Assets.xcassets */; };
 		E962593B2313C9B70029DC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96259392313C9B70029DC06 /* LaunchScreen.storyboard */; };
 		E962593E2313C9B70029DC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E962593D2313C9B70029DC06 /* main.m */; };
+		E96259462313CD4C0029DC06 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E96259452313CD4C0029DC06 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E962593A2313C9B70029DC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E962593C2313C9B70029DC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E962593D2313C9B70029DC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E96259442313CD4C0029DC06 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E96259452313CD4C0029DC06 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E96259392313C9B70029DC06 /* LaunchScreen.storyboard */,
 				E962593C2313C9B70029DC06 /* Info.plist */,
 				E962593D2313C9B70029DC06 /* main.m */,
+				E96259442313CD4C0029DC06 /* Person.h */,
+				E96259452313CD4C0029DC06 /* Person.m */,
 			);
 			path = KVODemo;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				E96259332313C9B50029DC06 /* ViewController.m in Sources */,
 				E962593E2313C9B70029DC06 /* main.m in Sources */,
+				E96259462313CD4C0029DC06 /* Person.m in Sources */,
 				E96259302313C9B50029DC06 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
